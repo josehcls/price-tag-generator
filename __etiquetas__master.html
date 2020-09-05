@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+<link href='afanan/stylesheet.css' rel='stylesheet'>
+<style>
+body {
+  background: rgb(204,204,204); 
+}
+page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+page[size="A4"][layout="landscape"] {
+  width: 297mm;
+  height: 204mm;  
+}
+
+.price {
+    font-family: 'Nunito';
+    font-weight: bold;
+    font-size:33pt; 
+    margin-top: -20px; 
+}
+
+.currency {
+    font-family: 'Nunito';
+    font-weight: bold;
+    font-size:10pt;
+    margin-top:0
+}
+
+.container_description {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  flex: 0 0 64;
+  font-family: Montserrat;
+  /* font-family: afananregular; */
+  font-size: 11pt;
+}
+
+.price_tag {
+    width:70mm; 
+    height:30mm;
+}
+
+</style>
+</head>
+<body>
+
+    <page size="A4" layout="landscape">
+  
+        <table allign="center" border="1"cellpadding="0" cellspacing="0"  style="border-collapse: collapse;">
+            <tr>
+                <td style="width:2.0mm; height:3mm;"> </td>
+                <td style="width:70mm; height:3mm;"> </td>
+                <td style="width:70mm; height:3mm;"> </td>
+                <td style="width:70mm; height:3mm;"> </td>
+                <td style="width:70mm; height:3mm;"> </td>
+            </tr>
+            <tr>
+                <td style="width:2.0mm; height:30mm;"> </td>
+
+                <!-- price_tag -->
+                <td class="price_tag"> 
+                    <div>
+                        <div style="width:70mm; height:1.5mm;"></div>
+                        <table allign="center" cellpadding="0" cellspacing="0"  style="border-collapse: collapse;">
+                            <tr>
+                                <td style="width:22.5mm; height:10.5mm"></td>
+                                    <td style="width:6mm; height:8.5mm; text-align:left;vertical-align:top;line-height:8.5mm;">
+                                    <div style="width:6mm; height:8.5mm;">
+                                        <p class="currency">R$</p>
+                                    </div>
+                                </td>
+                                <td style="width:41.5mm; height:8.5mm; ">
+                                    <div style="width:41.5mm; height:8.5mm; ">
+                                        <p class="price">$price</p>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <div class="container_description" style="width:70mm; height:18mm;">
+                            <div class="container_description">
+                                <div class="description">$description</div>
+                            </div>
+                        </td>
+                    </div>
+                </td>
+                <!-- --- -->
+
+                <td class="price_tag">$tag</td>
+                <td class="price_tag">$tag</td>
+                <td class="price_tag">$tag</td>
+            </tr>
+            <tr>
+                <td style="width:2.0mm; height:30mm;"> </td>
+                <td class="price_tag">$tag</td>
+                <td class="price_tag">$tag</td>
+                <td class="price_tag">$tag</td>
+                <td class="price_tag">$tag</td>
+            </tr>
+            
+            <tr>
+                <td style="width:2.0mm; height:30mm;"> </td>
+                <td class="price_tag">$tag</td>
+                <td class="price_tag">$tag</td>
+                <td class="price_tag">$tag</td>
+                <td class="price_tag">$tag</td>
+            </tr>
+            <tr>
+                <td style="width:2.0mm; height:30mm;"> </td>
+                <td class="price_tag">$tag</td>
+                <td class="price_tag">$tag</td>
+                <td class="price_tag">$tag</td>
+                <td class="price_tag">$tag</td>
+            </tr>
+
+            <tr>
+                <td style="width:2.0mm; height:30mm;"> </td>
+                <td class="price_tag">$tag</td>
+                <td class="price_tag">$tag</td>
+                <td class="price_tag">$tag</td>
+                <td class="price_tag">$tag</td>
+            </tr>
+            <tr>
+                <td style="width:2.0mm; height:30mm;"> </td>
+                <td class="price_tag">$tag</td>
+                <td class="price_tag">$tag</td>
+                <td class="price_tag">$tag</td>
+                <td class="price_tag">$tag</td>
+            </tr>
+        </table>
+
+
+
+    </page>
+
+</body>
+</html>
